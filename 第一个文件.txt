@@ -1,2 +1,8 @@
 第一个文件
 加个记录
+
+
+10. git生成并添加ssh key
+git config --global user.name 'tzhiwen'
+git config --global user.email 'tzhiwen_flame@hotmail.com'
+ssh-keygen -t rsa -C 'tzhiwen_flame@hotmail.com'
